@@ -27,7 +27,7 @@ function addToBasket(good) {
             str = 'В вашей корзине нет товаров';
         }
         else {
-            str = 'В вашей корзине товаров '+count+' на сумму '+sum+' руб. <p><a href="/basket">Перейти в корзину</a></p>';
+            str = 'В вашей корзине товаров '+n+' на сумму '+sum+' руб. <p><a href="/basket">Перейти в корзину</a></p>';
         }
         $('.basket').html(str)
      
@@ -50,7 +50,7 @@ function getBasket() {
             str = 'В вашей корзине нет товаров';
         }
         else {
-            str = 'В вашей корзине товаров '+count+' на сумму '+sum+' руб. <p><a href="/basket">Перейти в корзину</a></p>';
+            str = 'В вашей корзине товаров '+n+' на сумму '+sum+' руб. <p><a href="/basket">Перейти в корзину</a></p>';
         }
         $('.basket').html(str)
      }, "json")

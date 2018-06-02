@@ -13,7 +13,7 @@ use app\models\search\GoodsSearch;
 use yii\data\ActiveDataProvider;
 
 
-class SiteController extends Controller
+class SiteController extends BaseController
 {
     /**
      * {@inheritdoc}
